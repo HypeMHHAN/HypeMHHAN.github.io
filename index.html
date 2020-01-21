@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="css/icon-font.css">-->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/HypeMHHAN_logo_black.png">
+
+    <title>HypeMHHAN | LET’S GET HYPED</title>
+    <script>
+        function closeNav() {
+            document.getElementById("navi-toggle").checked = false;
+        }
+
+        function popUpNav() {
+            let w = window.innerWidth;
+
+            if (w < 750) {
+                location.href = '#book';
+            } else {
+                location.href = '#popup';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#about" class="navigation__link"
+                        onclick="closeNav()"><span>01</span>About Carl</a></li>
+                <li class="navigation__item"><a href="#personal_mantras" class="navigation__link"
+                        onclick="closeNav()"><span>02</span>Personal Mantras</a></li>
+                <li class="navigation__item"><a href="#section-tours" class="navigation__link"
+                        onclick="closeNav()"><span>03</span>Presentation Packages</a></li>
+                <li class="navigation__item"><a href="#testimonials" class="navigation__link"
+                        onclick="closeNav()"><span>04</span>Testimonials</a></li>
+                <li class="navigation__item"><a href="#section-video" class="navigation__link"
+                        onclick="closeNav()"><span>05</span>Find Me On YouTube</a></li>
+                <li class="navigation__item"><a href="#book" class="navigation__link"
+                        onclick="closeNav()"><span>06</span>Book now</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="header">
+        <div class="header__logo-box">
+            <img src="img/HypeMHHAN_logo.png" alt="Logo" class="header__logo">
+        </div>
+
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">H<span class="heading-primary--main-small">ype</span>MHHAN</span>
+                <span class="heading-primary--sub">Your Best Life is Waiting & You Know It</span>
+            </h1>
+
+            <a href="#about" class="btn btn--white btn--animated">LET’S GET HYPED</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-about" id="about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Motivational Presentations Designed to Excite
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2">
+                    <h3 class="heading-tertiary u-margin-bottom-small">Carl is Your HYPEMHHAN & Energy Personifed</h3>
+                    <p class="paragraph">
+                        An All-American, Conference Champion, Successful Business Owner, Proven University Leader, and
+                        a Family-Oriented Achievement Enthusiast, Carl Thomas embodies a powerful boost of energy and
+                        offers his audiences an electrifying delivery of motivational principles and lessons.
+                    </p>
+
+                    <h3 class="heading-tertiary u-margin-bottom-small">Lively Presentations That Inspire Beyond
+                        Momentary Excitement</h3>
+                    <p class="paragraph">
+                        Your Motivational Hip Hop Animated Narrator provides decades of life lessons, shares success
+                        clues and illustrates proven tactics to help people of varying abilities and back grounds to
+                        identify WHAT they want, WHY they want it and HOW to achieve any goal. Carl, also, shares how
+                        previous goals, often, manifest into new aspirations that develop throughout the process of
+                        pursuing ones’ best life.
+                    </p>
+
+                </div>
+                <div class="col-1-of-2">
+                    <div class="composition">
+
+                        <img srcset="img/personal_pics/HypeMHHANHIstudents.jpg 300w, img/personal_pics/HypeMHHANHIstudents.jpg 1000w"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1"
+                            class="composition__photo composition__photo--p1"
+                            src="img/personal_pics/HypeMHHANHIstudents.jpg">
+
+                        <img srcset="img/personal_pics/HypeMHHANGrad.jpg 300w, img/personal_pics/HypeMHHANGrad.jpg 1000w"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2"
+                            class="composition__photo composition__photo--p2" src="img/personal_pics/HypeMHHANGrad.jpg">
+
+                        <img srcset="img/personal_pics/DSC09555-small.jpg 300w, img/personal_pics/DSC09555-small.jpg 1000w"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3"
+                            class="composition__photo composition__photo--p3"
+                            src="img/personal_pics/DSC09555-small.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-features" id="personal_mantras">
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <!-- <i class="feature-box__icon icon-basic-world"></i> -->
+                        <h3 class="heading-tertiary u-margin-bottom-small">Jump</h3>
+                        <p class="feature-box__text">
+                            Sometimes you have to fly before you can walk… There is no perfect time to get started on
+                            your dreams. You just have to go for it and trust that when adjustments are necessary you
+                            will adapt to what is needed to keep moving forward. Make a decision, be dedicated, stay
+                            persistent, learn from failure - never give up! JUMP! Right Now! If you want, I’ll be there
+                            with you for the jump.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <!-- <i class="feature-box__icon icon-basic-compass"></i> -->
+                        <h3 class="heading-tertiary u-margin-bottom-small">Work</h3>
+                        <p class="feature-box__text">
+                            Opportunity often shows up disguised as hard work! The truth is that opportunities are those
+                            places and times in our lives where hard work meets a chance to progress. So, keep working
+                            hard so that you are prepared when your chance presents itself to you. You’d much rather be
+                            prepared and waiting for an opportunity than to be presented with an opportunity and NOT be
+                            prepared for it.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <!-- <i class="feature-box__icon icon-basic-map"></i> -->
+                        <h3 class="heading-tertiary u-margin-bottom-small">Live</h3>
+                        <p class="feature-box__text">
+                            Live your best life! Don’t disregard the process or the pursuit of your dreams. Reaching
+                            your goals (aka Victory) is, ABSOLUTELY, sweet! However, the journey is what you get to
+                            savor far longer than the time you get to experience <i>winning</i>. Appreciate where you
+                            are along
+                            the path to your greatness; even the pain will be remembered with reverence when you,
+                            finally, conquer your dragon.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <!-- <i class="feature-box__icon icon-basic-heart"></i> -->
+                        <h3 class="heading-tertiary u-margin-bottom-small">Share</h3>
+                        <p class="feature-box__text">
+                            There are not ANY selfless “good deeds.” So, give what time and resources you have to help
+                            other champions “push their rocks” and “climb their mountains.” By giving to other people
+                            and helping them work on their goals, you will tap into an unlimited source of
+                            self-sustaining power that all people have access to and can draw upon to recharge their own
+                            Discipline and Will to be great.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-tours" id="section-tours">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    HypeMHHAN
+                </h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Motivational Presentations & Group Achievement
+                    Planning</h3>
+                <p class="heading-quaternary">Carl delivers </i>The HypeMHHAN</i> philosophy, messages and actionable
+                    take-aways in accordance with
+                    the needs of his audience and the stated goals of the institutional assembly or organizational
+                    business event.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">45 minute Presentation</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>$799 Standard</li>
+                                    <li>Up to 100 attendees</li>
+                                    <li>$17 per ea. additional min</li>
+                                    <li>$20 per ea. additional attendee </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-1">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Only</p>
+                                    <p class="card__price-value">$799</p>
+                                </div>
+                                <a onclick="popUpNav()" class="btn btn--white">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--2">60 minute Presentation</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>$1,099 Standard</li>
+                                    <li>Up to 100 attendees</li>
+                                    <li>$17 per ea. additional min</li>
+                                    <li>$20 per ea. additional attendee </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Only</p>
+                                    <p class="card__price-value">$1,099</p>
+                                </div>
+                                <a onclick="popUpNav()" class="btn btn--white">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--3">90 minute Presentation</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>$1,669 Standard</li>
+                                    <li>Up to 100 attendees</li>
+                                    <li>$17 per ea. additional min</li>
+                                    <li>$20 per ea. additional attendee</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Only</p>
+                                    <p class="card__price-value">$1,669</p>
+                                </div>
+                                <a onclick="popUpNav()" class="btn btn--white">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="u-center-text u-margin-bottom-big">
+                <p class="heading-quaternary"><i>*Large group fees for 250 or more attendees are negotiable</i></p>
+            </div>
+            <!-- <div class="u-center-text u-margin-top-huge">
+                <a href="#" class="btn btn--green">Discover all tours</a>
+            </div> -->
+        </section>
+
+        <section class="section-stories" id="testimonials">
+            <!-- <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="img/video.mp4" type="video/mp4">
+                    <source src="img/video.webm" type="video/webm">
+                    Your browser is not supported!
+                </video>
+            </div> -->
+
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary heading-secondary__alt">
+                    Making a Difference for Nearly 25 Years
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="img/testimonials/Kim.jpg" alt="Person on a tour" class="story__img">
+                        <figcaption class="story__caption">Kim Duyst</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">Carl's drive is equal to that of a champion
+                        </h3>
+                        <p>
+                            Carl might be the hardest-working athlete I’ve ever coached [in Track & Field]. It was
+                            fitting that his hard-work and perseverance carried him to a conference championship and
+                            All-American honors. Even at a young age he seemed to, intuitively, know how to get the most
+                            from himself and those around him.
+                            <br>
+                            <br>
+                            <b>Kim Duyst, Retired Head Track & Field Coach, California State University Stanislaus</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="img/testimonials/Miles.jpeg" alt="Person on a tour" class="story__img">
+                        <figcaption class="story__caption">Miles Dodge</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">Carl helped make me the leader I am today
+                        </h3>
+                        <p>
+                            Carl provided a stable presence and guiding light on navigating a number of challenging
+                            situations. Some leaders “go through the motions” and do the basic things that are
+                            “required” in a position, but rare people like Carl have a natural and genuine enthusiasm to
+                            help others aspire beyond obvious goals. If you want someone who will “walk the walk,”
+                            Carl’s the person you want on your team!
+                            <br>
+                            <br>
+                            <b>Miles Dodge, Oregon State University Chapter of Delta Upsilon Fraternity</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="img/testimonials/Pearl.jpeg" alt="Person on a tour" class="story__img">
+                        <figcaption class="story__caption">Pearl Young</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">Carl fought for me when no one else would
+                        </h3>
+                        <p>
+                            I believe that no matter where you come from and no matter how hard your life is, if you
+                            fight for yourself with everything you’ve got (and it’s not enough) there are people like
+                            Carl in this world that will recognize your fight and will fight with you!
+                            <br>
+                            <br>
+                            <b>Pearl Young, Real Estate Broker</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="u-center-text u-margin-top-huge">
+                <a href="#" class="btn-text">Read all stories &rarr;</a>
+            </div> -->
+        </section>
+
+        <section class="section-video" id="section-video">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Find Me On YouTube!
+                </h2>
+
+            </div>
+
+            <iframe class="section-video__video-dimensions" src="https://www.youtube.com/embed/Tgqw2ljiYdA"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+
+
+        <section class="section-book" id="book">
+            <div class="row">
+                <div class="book">
+                    <div class="book__form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-medium">
+                                <h2 class="heading-secondary">
+                                    Start booking now
+                                </h2>
+                            </div>
+
+                            <div class="form__group">
+                                <img class="form__logo"
+                                    src="https://img.icons8.com/wired/64/000000/send-mass-email.png">
+                                <p class="heading-quinary heading-quinary__inline">EMAIL: <a class="form__link"
+                                        href="mailto:HypeMHHAN@outlook.com">HypeMHHAN@outlook.com</a></p>
+                            </div>
+
+                            <div class="form__group">
+                                <img class="form__logo" src="https://img.icons8.com/wired/64/000000/cell-phone.png">
+                                <p class="heading-quinary heading-quinary__inline">PHONE: <a class="form__link"
+                                        href="tel:541-816-1952">(541) 816-1952</a></p>
+                            </div>
+
+                            <div class="form__group">
+                                <img class="form__logo"
+                                    src="https://img.icons8.com/carbon-copy/100/000000/instagram-new.png">
+                                <p class="heading-quinary heading-quinary__inline">Instagram: <a class="form__link"
+                                        href="https://www.instagram.com/hypemhhan/?hl=en" target="_blank">HypeMHHAN</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo-box">
+
+            <picture class="footer__logo">
+                <source srcset="img/HypeMHHAN_logo-1x.png 1x, img/HypeMHHAN_logo-2x.png 2x" media="(max-width: 37.5em)">
+                <img srcset="img/HypeMHHAN_logo-1x.png 1x, img/HypeMHHAN_logo-2x.png 2x" alt="Full logo"
+                    src="img/HypeMHHAN_logo-2x.png">
+            </picture>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Home</a></li>
+                        <li class="footer__item"><a href="#about" class="footer__link">About</a></li>
+                        <li class="footer__item"><a href="#personal_mantras" class="footer__link">Mantras</a></li>
+                        <li class="footer__item"><a href="#section-tours" class="footer__link">Packages</a></li>
+                        <li class="footer__item"><a href="#testimonials" class="footer__link">Testimonials</a></li>
+                        <li class="footer__item"><a href="#book" class="footer__link">Book now</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Webpage built by <a href="http://remingtonhenderson.com" target="_blank"
+                        class="footer__link">Remington Henderson</a> and
+                    based on a template by <a href="https://github.com/jonasschmedtmann" target="_blank"
+                        class="footer__link">
+                        Jonas Schmedtmann</a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/break-dance-break-dancer-city-performance-3156.jpg" alt="Tour photo" class="popup__img">
+                <img src="img/people-gathering-inside-closed-room-1238980.jpg" alt="Tour photo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before
+                    booking</h3>
+                <p class="popup__text">
+                    It is my honest opinion that greatness lies within every individual. The question is how to ignite
+                    the flame which will carry that person on to the goals they set for themselves. I’ve been a part of
+                    inspirational/ motivational situations my whole life ranging from sports to academics. I can safely
+                    say that I have made inspirational mantras my lifeblood and continue to see their benefits in my
+                    daily life.
+                    <br>
+                    <br>
+                    My mission is to share what I discovered, deliver the message with the enthusiasm that it warrants,
+                    and get as many people as possible (regardless of their age, background or circumstances) to tap
+                    into their greatness and help them get started on path to their greatness TODAY!
+                    <br>
+                    <br>
+                    So, let’s get started… I guarantee that you, your students, your staff or your team haven’t heard
+                    the messages that I share presented the way I present them. I will encourage you as you encourage me
+                    and we all get into the right state of mind to chase after new goals and/or renew the pursuit of
+                    established goals.
+                    <br>
+                    <br>
+                    With your permission, we will stay connected as we “jump,” plan our work and work our plan!
+                    <br>
+                    <br>
+                    <i><b>Carl Thomas</b></i>
+                    <br>
+                    <i>Your...</i>
+                    <br>
+                    <i><b>M</b>otivational <b>H</b>ip <b>H</b>op <b>A</b>nimated <b>N</b>arrator</i>
+                    <br>
+                    <i>HypeMHANN</i>
+
+                </p>
+                <a href="#book" class="btn btn--green">Book now</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
